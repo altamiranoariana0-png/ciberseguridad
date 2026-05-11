@@ -4,7 +4,7 @@ Repositorio correspondiente al desarrollo de laboratorios prácticos orientados 
 
 ---
 
-# 📌 Introducción
+# Introducción
 
 La ciberseguridad se ha convertido en un elemento fundamental dentro de cualquier infraestructura tecnológica moderna. Actualmente, las organizaciones deben proteger información sensible frente a amenazas como ataques de fuerza bruta, robo de credenciales, manipulación de archivos y espionaje de tráfico de red.
 
@@ -26,9 +26,9 @@ Los entornos fueron implementados utilizando contenedores Docker, permitiendo si
 
 ---
 
-# 🧪 Laboratorio 1 — Integridad y Firma Digital
+# Laboratorio 1 — Integridad y Firma Digital
 
-## 📖 Descripción
+## Descripción
 
 En este laboratorio se trabajó con mecanismos criptográficos orientados a garantizar la integridad y autenticidad de archivos digitales.
 
@@ -40,7 +40,7 @@ Además, mediante el uso de llaves públicas y privadas, se valida la autenticid
 
 ---
 
-## 🧠 Conceptos trabajados
+## Conceptos trabajados
 
 - Integridad de datos
 - Hashing
@@ -53,7 +53,7 @@ Además, mediante el uso de llaves públicas y privadas, se valida la autenticid
 
 ---
 
-## ⚙️ Actividades realizadas
+## Actividades realizadas
 
 - Creación de archivos de prueba
 - Generación de hashes SHA-256
@@ -64,21 +64,21 @@ Además, mediante el uso de llaves públicas y privadas, se valida la autenticid
 
 ---
 
-## 🎯 Objetivo específico
+## Objetivo específico
 
 Demostrar cómo las funciones hash y las firmas digitales permiten proteger información frente a modificaciones maliciosas y validar la autenticidad de un archivo.
 
 ---
 
-## 📸 Evidencias
+## Evidencias
 
 <img src="img/lab1_hash" width="700">
 
 ---
 
-# 🧪 Laboratorio 2 — Ataque de Fuerza Bruta con Hydra + MFA
+# Laboratorio 2 — Ataque de Fuerza Bruta con Hydra + MFA
 
-## 📖 Descripción
+## Descripción
 
 En este laboratorio se simuló un ataque de fuerza bruta sobre un servicio SSH utilizando la herramienta Hydra desde un entorno atacante basado en Kali Linux.
 
@@ -90,7 +90,7 @@ Finalmente, se repitió el ataque utilizando Hydra, evidenciando que, aunque la 
 
 ---
 
-## 🧠 Conceptos trabajados
+## Conceptos trabajados
 
 - Fuerza bruta
 - Ataque de diccionario
@@ -101,7 +101,7 @@ Finalmente, se repitió el ataque utilizando Hydra, evidenciando que, aunque la 
 
 ---
 
-## ⚙️ Actividades realizadas
+## Actividades realizadas
 
 - Creación de entorno atacante y víctima mediante Docker
 - Configuración de servicio SSH
@@ -115,21 +115,21 @@ Finalmente, se repitió el ataque utilizando Hydra, evidenciando que, aunque la 
 
 ---
 
-## 🎯 Objetivo específico
+## Objetivo específico
 
 Demostrar cómo los ataques automatizados pueden vulnerar contraseñas débiles y cómo la autenticación multifactor reduce significativamente el riesgo de compromiso.
 
 ---
 
-## 📸 Evidencias
+## Evidencias
 
 <img src="img/lab2_hydra" width="700">
 
 ---
 
-# 🧪 Laboratorio 3 — Intercepción de Tráfico: HTTP vs HTTPS
+# Laboratorio 3 — Intercepción de Tráfico: HTTP vs HTTPS
 
-## 📖 Descripción
+## Descripción
 
 En este laboratorio se analizó el comportamiento del tráfico de red utilizando herramientas de sniffing para demostrar las diferencias de seguridad entre HTTP y HTTPS.
 
@@ -141,7 +141,7 @@ Finalmente, se trabajó con túneles SSH para encapsular tráfico inseguro dentr
 
 ---
 
-## 🧠 Conceptos trabajados
+## Conceptos trabajados
 
 - Sniffing
 - HTTP
@@ -154,7 +154,7 @@ Finalmente, se trabajó con túneles SSH para encapsular tráfico inseguro dentr
 
 ---
 
-## ⚙️ Actividades realizadas
+## Actividades realizadas
 
 - Implementación de entorno mediante Docker
 - Configuración de servidor web Apache
@@ -168,20 +168,20 @@ Finalmente, se trabajó con túneles SSH para encapsular tráfico inseguro dentr
 
 ---
 
-## 🎯 Objetivo específico
+## Objetivo específico
 
 Demostrar cómo el cifrado protege la confidencialidad de la información transmitida a través de redes y cómo protocolos inseguros exponen credenciales sensibles.
 
 ---
 
-## 📸 Evidencias
+## Evidencias
 
 <img src="img/lab3_http" width="700">
 
 
 ---
 
-# 🏁 Conclusión General
+# Conclusión General
 
 Los laboratorios permitieron comprender, de forma práctica, distintas problemáticas de seguridad informática relacionadas con integridad, autenticación y confidencialidad de la información.
 
